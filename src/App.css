@@ -1,0 +1,111 @@
+/* //  
+https://www.figma.com/design/QXJsi5DQ2JoQo5SZVSVuJu/AI-Blog-Website-UI-Template---Dark-Theme-%7C-Produce-UI--Community---Copy-?node-id=324-8&t=dJpUXBDTKYKqKA70-0 
+*/
+/* 
+
+http://localhost:5173/ 
+
+*/
+
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xs: 25rem;
+  --color-333333: #333333;
+  --color-1A1A1A: #1a1a1a;
+  --color-FFFFFF: #ffffff;
+  --color-666666: #666666;
+  --color-404040: #404040;
+  --colo-262626: #262626;
+  --color-141414: #141414;
+  --color-7E7E81: #7e7e81;
+  --bg-color-41414: #141414;
+  --color-98989A: #98989a;
+  --btn-color-FFD11A: #ffd11a;
+  --font-inter: "Inter", sans-serif;
+  --font-kumbh-sans: "Kumbh Sans", sans-serif;
+}
+*{
+  box-sizing: border-box; 
+   /* border: 1px solid red;  */
+}
+.active {
+  color: #FFFFFF;
+  border-bottom: 1px solid  #FFFFFF;
+}
+/* 1 */
+
+.heding-1 {
+  @apply font-medium text-[30px] sm:text-[55px] leading-[120%] tracking-[-3%];
+  font-family: var(--font-kumbh-sans);
+  color: var(--color-FFFFFF);
+}
+/* 2 */
+.heding-2 {
+  @apply font-medium text-[28px] sm:text-[44px] leading-[130%] tracking-[-3%];
+  font-family: var(--font-kumbh-sans);
+  color: var(--color-FFFFFF);
+}
+/* 3 */
+.heding-3 {
+  @apply font-semibold text-[24px] sm:text-[30px] leading-[150%] tracking-[-3%];
+  font-family: var(--font-kumbh-sans);
+  color: var(--color-FFFFFF);
+}
+/* 4 */
+.heding-4 {
+  @apply font-semibold text-[18px] sm:text-[22px] leading-[150%] tracking-[-3%];
+  font-family: var(--font-kumbh-sans);
+  color: var(--color-666666);
+}
+/* 5 */
+.heding-5 {
+  @apply font-semibold text-[18px] sm:text-[20px] leading-[150%] tracking-[-3%];
+  font-family: var(--font-inter);
+  color: var(--color-FFFFFF);
+}
+/* 6 */
+.heding-6 {
+  @apply font-semibold text-[16px] sm:text-[18px] leading-[150%] tracking-[-3%];
+  font-family: var(--font-inter);
+  color: var(--color-FFFFFF);
+}
+/* 7 */
+.heding-7 {
+  @apply font-medium text-[16px] sm:text-[20px] leading-[130%] tracking-[-3%];
+  font-family: var(--font-inter);
+  color: var(--color-FFFFFF);
+}
+/* 8 */
+/* footer  */
+.heding-8 {
+  @apply font-medium text-[14px] sm:text-[16px] leading-[150%] tracking-[-3%];
+  font-family: var(--font-inter);
+  color: var(--color-7E7E81);
+}
+/* 9 */
+.heding-9 {
+  @apply font-normal text-[14px] sm:text-[18px] leading-[130%] tracking-[-3%];
+  font-family: var(--font-inter);
+  color: var(--color-666666);
+}
+/* 10 */
+/* btn */
+.heding-10 {
+  @apply font-normal text-[14px] leading-[150%] tracking-[-3%] capitalize;
+  font-family: var(--font-inter);
+  color: var(--color-666666);
+}
+/* 11 */
+/* btn  */
+.heding-11 {
+  @apply font-medium text-[16px] leading-[150%] tracking-[-3%];
+  font-family: var(--font-inter);
+  color: var(--color-FFFFFF);
+}
+/* heroimg / */
+.bgimg{
+  background-image: url("./component/img/heroimg.png");
+ background-position: right;  
+  background-repeat: no-repeat; 
+}
