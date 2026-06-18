@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <>
       {/* top nav  */}
-      <div className="sticky top-0 w-full z-50 flex justify-center items-center gap-3 bg-141414 py-3"> 
+      <div className="flex justify-center items-center gap-3 bg-141414 py-3"> 
         <p className="heding-10">
           Subscribe to our Newsletter For Blogs and Resources
         </p>
@@ -26,6 +26,7 @@ function Navbar() {
         <div className="">
           <img src={logo1} alt="logo" className="w-143px h-10 object-center" />
         </div>
+        <div className="fixed top-0">
         <div className=".heding-10 text-[#7E7E7E] hidden sm:block capitalize">
           <ul className="flex gap-6">
             {/* 1 */}
@@ -62,7 +63,7 @@ function Navbar() {
               Contact Us
             </NavLink>
           </button>
-        </div>
+        </div> </div>
       </nav>
     </>
   );
