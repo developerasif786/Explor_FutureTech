@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <>
       {/* top nav  */}
-      <div className="flex justify-center items-center gap-3 bg-141414 py-3 fixed top-0">
+      <div className="fixed top-0 w-full flex justify-center items-center gap-3 bg-141414 py-3 fixed top-0"> 
         <p className="heding-10">
           Subscribe to our Newsletter For Blogs and Resources
         </p>
