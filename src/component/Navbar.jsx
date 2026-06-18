@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <>
       {/* top nav  */}
-      <div className="flex justify-center items-center gap-3 bg-141414 py-3">
+      <div className="flex justify-center items-center gap-3 bg-141414 py-3 fixed top-0">
         <p className="heding-10">
           Subscribe to our Newsletter For Blogs and Resources
         </p>
@@ -21,7 +21,7 @@ function Navbar() {
       </div>
       {/* navbar  */}
       <nav
-        className="py-4 px-4 sm:px-20  bg-1A1A1A flex justify-between border-1 border-666666">
+        className="py-4 px-4 sm:px-20  bg-1A1A1A flex justify-between border-1 border-666666 fixed top-0">
         {/* logo div  */}
         <div className="">
           <img src={logo1} alt="logo" className="w-143px h-10 object-center" />
